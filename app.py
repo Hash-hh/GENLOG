@@ -62,6 +62,7 @@ def index():
 
 @app.route('/', methods=['POST'])
 def upload_files():
+    """Checks for good upload extension and saves the file in the logs path."""
     uploaded_file = request.files['file']
     filename = secure_filename(uploaded_file.filename)
     if filename != '':
@@ -69,7 +70,6 @@ def upload_files():
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
             abort(400)
         uploaded_file.save(app.config['UPLOADS'] + app.config['FILES'] + filename)
-
 
     return render_template('landing.html')
 

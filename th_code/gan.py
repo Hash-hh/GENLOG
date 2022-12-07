@@ -8,7 +8,8 @@ from keras.models import Sequential
 from keras.layers import Dense
 from matplotlib import pyplot as plt
 import pandas as pd
-from keras.layers.advanced_activations import LeakyReLU
+# from keras.layers.advanced_activations import LeakyReLU
+from keras.layers import LeakyReLU
 import os
 import tensorflow as tf
 
@@ -102,7 +103,7 @@ def generate_fake_samples(generator, latent_dim, n):
     return X, y
 
 # evaluate the discriminator and plot real and fake points
-def summarize_performance(epoch, generator, discriminator, latent_dim, n=400):
+def summarize_performance(epoch, generator, discriminator, latent_dim, n=4):  # n=400
     # prepare real samples
     x_real, y_real = generate_real_samples(n)
     # evaluate discriminator on real examples
@@ -151,4 +152,4 @@ generator = define_generator(latent_dim)
 # create the gan
 gan_model = define_gan(generator, discriminator)
 # train model
-train(generator, discriminator, gan_model, latent_dim)
+train(generator, discriminator, gan_model, latent_dim, n_epochs=10, n_batch=3, n_eval=2)

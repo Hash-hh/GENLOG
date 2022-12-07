@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="\data\resampled\batch4_Axis_X_aaLeadP_bin0_0.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\1ab2f9dd-62ff-4433-8d88-605744403ab2\single_runs\1ab2f9dd-62ff-4433-8d88-605744403ab2_Axis_X_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\1ab2f9dd-62ff-4433-8d88-605744403ab2\single_runs\1ab2f9dd-62ff-4433-8d88-605744403ab2_Axis_Y_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\1c65003f-2c69-449a-9e8b-7dc8ddda07d4_1\single_runs\1c65003f-2c69-449a-9e8b-7dc8ddda07d4_Axis_X_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\resampled\Axis_X_aaLoad\0b679131-af02-4f1a-bba2-f8d1441b0ca7_Axis_X_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\resampled\Axis_X_aaLoad\1ab2f9dd-62ff-4433-8d88-605744403ab2_Axis_X_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\resampled\Axis_X_aaLoad\1c65003f-2c69-449a-9e8b-7dc8ddda07d4_Axis_X_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\resampled\Axis_X_aaLoad\24613a34-d080-46d2-8de7-c3aec73b2f18_Axis_X_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\resampled\Axis_X_aaLoad\53e87b6c-ae64-40ed-a64a-66ece5e4e9a4_Axis_X_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\resampled\Axis_X_aaLoad\fc1c330d-18ed-48ed-9671-4ba3005323f6_Axis_X_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\uploads\resampled\Axis_Y_aaLoad\1ab2f9dd-62ff-4433-8d88-605744403ab2_Axis_Y_aaLoad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

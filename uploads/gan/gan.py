@@ -8,8 +8,10 @@ from keras.models import Sequential
 from keras.layers import Dense
 from matplotlib import pyplot as plt
 import pandas as pd
-from keras.layers.advanced_activations import LeakyReLU
+# from keras.layers.advanced_activations import LeakyReLU
+from keras.layers import LeakyReLU
 from matplotlib.lines import Line2D
+import keras.layers as layers
 
 
 def generator_model():

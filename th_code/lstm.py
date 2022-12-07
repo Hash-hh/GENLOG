@@ -1,9 +1,9 @@
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.models import save_model
-from tensorflow.keras.models import load_model
-from tensorflow.keras.callbacks import EarlyStopping
+from keras.models import Sequential
+from keras.layers import LSTM
+from keras.layers import Dense
+from keras.models import save_model
+from keras.models import load_model
+from keras.callbacks import EarlyStopping
 from numpy import array
 import pandas as pd
 import numpy as np
@@ -94,7 +94,7 @@ def train_models2(path, path2, path3, file, filename):
 
 
     for csv_file in csv_files:
-        file_name = split_path(csv_file)[-1][:-4]
+        file_name = split_path(csv_file)[-1][:-4]  # gets the name of the file
         csv_files_all = os.listdir('uploads/resampled/' + '_'.join(file_name.split('_')[1:]))
 
         y_label = 'motor load (in W)'
@@ -123,7 +123,7 @@ def train_models2(path, path2, path3, file, filename):
             model.add(Dense(1))
             model.compile(optimizer='adam', loss='mse')
             callbacks = [EarlyStopping(monitor='loss', patience=5)]
-            model.fit(X, y, epochs=12, verbose=0, callbacks=callbacks)
+            model.fit(X, y, epochs=12, verbose=0, callbacks=callbacks)  #epochs=12
 
             X_input = reshape_X('uploads/resampled/' + '_'.join(file_name.split('_')[1:]) + '/' + csv_files_all[i])
             yhat = model.predict(X_input, verbose=0)
